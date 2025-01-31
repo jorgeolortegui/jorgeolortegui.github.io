@@ -162,7 +162,7 @@ img {
   cursor: pointer;
 }
 
-/*Active menu*/
+/*Activo menu*/
 .active-link::after {
   position: absolute;
   content: "";
@@ -178,7 +178,7 @@ img {
   right: 0;
 }
 
-/*===== HOME =====*/
+/*===== INICIO =====*/
 .home {
   position: relative;
   row-gap: 5rem;
@@ -220,7 +220,7 @@ img {
   width: 360px;
 }
 
-/*BUTTONS*/
+/*BOTONES*/
 .button {
   display: inline-block;
   background-color: var(--first-color);
@@ -306,7 +306,7 @@ img {
   border-radius: 0.5rem;
 }
 
-/* ===== WORK =====*/
+/* ===== PORTAFOLIO =====*/
 .work__container {
   row-gap: 2rem;
 }
@@ -322,7 +322,7 @@ img {
   transform: scale(1.1);
 }
 
-/* ===== CONTACT =====*/
+/* ===== CONTACTO =====*/
 .contact__input {
   width: 100%;
   font-size: var(--normal-font-size);
@@ -366,7 +366,7 @@ img {
   font-size: var(--smaller-font-size);
 }
 
-/* ===== MEDIA QUERIES=====*/
+/* ===== MEDIA QUERIES =====*/
 @media screen and (max-width: 320px) {
   .home {
     row-gap: 2rem;
